@@ -1,21 +1,44 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ttt-board-container {
+  width: 239px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: black;
+}
+
 .ttt-board {
-  height: 300px;
-  width: 300px;
+  padding: 0;
+  flex-wrap: wrap;
+  height: 231px;
+  width: 239px;
 }
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
 .board-tile {
-  position: relative;
   display: inline-block;
-  height: 70px;
-  width: 70px;
-  border: 5px solid black;
-  margin: -2px;
-  padding: 0;
+  height: 71px;
+  width: 75px;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
   background-color: #BEBEBE;
+}
+
+.tile-text {
+  display: table-row;
+  font-size: 63px;
+  text-align: center;
+  margin-left: 15px;
+  position: absolute;
 }
 
 .board-tile:hover {
