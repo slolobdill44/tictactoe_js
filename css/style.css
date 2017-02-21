@@ -9,17 +9,15 @@ h1 {
 }
 
 .ttt-board-container {
-  width: 239px;
+  width: 228px;
   padding: 0;
   margin: 0 auto;
-  background-color: black;
 }
 
 .ttt-board {
   padding: 0;
-  flex-wrap: wrap;
-  height: 231px;
-  width: 239px;
+  height: 230px;
+  width: 231px;
 }
 
 ul {
@@ -30,10 +28,8 @@ ul {
 .board-tile {
   display: inline-block;
   height: 71px;
-  width: 75px;
-  margin-top: 2px;
-  margin-right: 2px;
-  margin-left: 2px;
+  width: 74px;
+  margin-right: 3px;
   background-color: #BEBEBE;
 }
 
