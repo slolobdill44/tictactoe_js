@@ -1,0 +1,12 @@
+.ttt-board {
+  height: 300px;
+  width: 300px;
+}
+
+.board-tile {
+  position: relative;
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  border: 5px solid black;
+}
