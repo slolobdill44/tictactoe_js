@@ -8,6 +8,10 @@ h1 {
   font-family: sans-serif;
 }
 
+h3 {
+  font-family: sans-serif;
+}
+
 .ttt-board-container {
   width: 228px;
   padding: 0;
@@ -44,4 +48,8 @@ ul {
 .board-tile:hover {
   background-color: green;
   cursor: pointer;
+}
+
+.win-text {
+  display: none;
 }
